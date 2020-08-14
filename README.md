@@ -30,6 +30,12 @@ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 - command
 ```
 chflags nohidden /Users/chisw/directoryName
+
+cat *.ts > x.ts
+brew install ffmpeg
+ffmpeg -y -i x.ts -c:v libx264 -c:a copy -bsf:a aac_adtstoasc x.mp4
+
+zip -e target.zip DRAG
 ```
 ### git
 
