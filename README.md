@@ -43,6 +43,12 @@ zip -e target.zip DRAG
 git config core.ignorecase false
 ```
 
+### Chrome
+
+```
+Command + Shift + P, Capture full size screenshot
+```
+
 ### SQL
 
 ```sql
